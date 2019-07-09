@@ -72,22 +72,20 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-	font-size: 60px;
+	font-size: 70px;
 }
 
-
-.container{
-	max-width: 900px;
-	margin: 0 auto;
+h4{
+	font-size: 18px;
 }
 
-section{
+section {
 	display: block;
-	margin: 30px 0px 30px 0px;
+	padding: 10px 0px 10px 0px;
+	margin: 45px 0px 45px 0px;
 }
 
-header{
-	display: block;
+header {
 	margin: 0 auto;
 }
 
@@ -96,10 +94,31 @@ nav{
 	margin-top: 10px;
 }
 
+button{
+	border: 1px solid black;
+	border-radius: 0px;
+	font-size: 16px;
+	padding: 7px 30px;
+}
+
+p{
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .nav-item{
 	color: grey;
 	text-decoration: none;
 	margin: 0px 20px 0 20px;
+}
+
+.nav-item:hover{
+	border-bottom: 1px solid grey;
 }
 
 .logo{
@@ -107,9 +126,29 @@ nav{
 	margin-right: 5%;
 }
 
-.tagline{
+.jumbotron{
+	padding: 30px 0px;
+}
+
+.inner-container{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.cta{
 	display: inline-block;
 	text-align: center;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.col-6{
+	display: inline-block;
+	width: 49%;
 }
 
 .col-4{
